@@ -32,6 +32,7 @@ const sqrArray = (arr) => {
     for(i=0; i<arr.length; i++)
     {
         newArray[i] = arr[i]**2;
+       // newArray.push(arr[i]**2);
     }
 
     return newArray;
